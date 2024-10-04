@@ -1,4 +1,4 @@
-# BSP STM32-STTS22H Component
+# BSP STM32-STTS22H Temperature Sensor Component
 
 ![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32-stts22h.svg?color=brightgreen)
 
@@ -9,7 +9,7 @@
 **STM32Cube** covers the overall STM32 products portfolio. It includes a comprehensive embedded software platform delivered for each STM32 series.
    * The CMSIS modules (core and device) corresponding to the ARM(tm) core implemented in this STM32 product.
    * The STM32 HAL-LL drivers, an abstraction layer offering a set of APIs ensuring maximized portability across the STM32 portfolio.
-   * The BSP drivers of each evaluation, demonstration or nucleo board provided for this STM32 series.
+   * The BSP drivers of each evaluation, discovery, or nucleo board provided for this STM32 series.
    * A consistent set of middleware libraries such as RTOS, USB, FatFS, graphics, touch sensing library...
    * A full set of software projects (basic examples, applications, and demonstrations) for each board provided for this STM32 series.
 
@@ -27,10 +27,8 @@ Details about the content of this release are available in the release note [her
 
 ## Compatibility information
 
-Below is the list of the BSP *component* drivers to be used with this BSP *board* driver. It is **crucial** that you use a consistent set of CMSIS - HAL - BSP versions, as mentioned in [this](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/STM32CubeALL/blob/master/Release_Notes.html) release note.
+Please refer to the repository of the BSP **board** driver you are using to know which version of this BSP component driver to use. It is **crucial** that you use a consistent set of versions as indicated.
 
 ## Troubleshooting
 
-If you have any issue with the **software content** of this repository, you can file an issue [here](https://github.com/STMicroelectronics/stm32-stts22h/issues/new).
-
-For any other question related to the product, the tools, the environment, you can submit a post to the **ST Community** on the appropriate topic [page](https://community.st.com/s/topiccatalog).
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
